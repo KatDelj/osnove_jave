@@ -1,4 +1,4 @@
-package p14_12_2022.ScannerUvod;
+package p14_12_2022;
 
 import java.util.Scanner;
 
