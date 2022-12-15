@@ -1,0 +1,27 @@
+package p14_12_2022.ScannerUvod;
+
+import java.util.Scanner;
+
+public class Zadatak9 {
+    public static void main(String[] args) {
+
+ Scanner s = new Scanner (System.in);
+        System.out.println("Unesite pocetnu jacinu zvuka: ");
+
+        int zvuk = s.nextInt();
+        System.out.println("Unesite akciju: ");
+        String akcija = s.next();
+
+        if (akcija.equals ("pojacaj")) {
+            zvuk = zvuk + 10;
+        } else if (akcija.equals("smanji")) {
+            zvuk = zvuk - 10;
+        } else if (akcija.equals ("mute")) {
+            zvuk = 0;
+        }
+        System.out.println("Nova jacina zvuka je " + zvuk);
+
+    }
+
+    }
+
