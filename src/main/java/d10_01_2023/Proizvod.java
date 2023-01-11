@@ -1,4 +1,4 @@
-package d10_02_2023;
+package d10_01_2023;
 
 public class Proizvod {
 
