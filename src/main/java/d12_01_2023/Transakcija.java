@@ -50,7 +50,7 @@ public class Transakcija {
     }
     public void stampaj(){
         System.out.println(this.id);
-        System.out.println("Racun sa: " + this.posiljalac.getBrRacuna());
-        System.out.println("Racun na: " +this.primalac.getBrRacuna());
+        System.out.println("Racun sa: " + this.posiljalac.getImeIPrezime() + " - " + this.posiljalac.getBrRacuna());
+        System.out.println("Racun na: " +this.primalac.getImeIPrezime()+ " - " + this.primalac.getBrRacuna());
     }
 }
